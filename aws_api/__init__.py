@@ -5,22 +5,27 @@ __copyright__ = "Copyright 2024, Health Care"
 __version__ = "1.0"
 __maintainer__ = "Someone"
 
-from config import Config
+from .config import Config
 from flask import Flask
-from flasgger import Swagger
+from flask_cors import CORS
 
 app = Flask(__name__)
-swagger = Swagger()
+cors = CORS()
 
+def celery_create_app():
+    pass
 
 def create_app(config=Config):
     template = { 
             "info": {
-                "title": "My Flask API",
+                "title": "Flask aws sample app",
                 "description": "An example API using Flask and Swagger",
                 "version": "1.0.0"
         }
     }
-    swagger.template = template
-    app.init(swagger)
+    cors.init_app(app)
+    
+    from .aws_module.routes import aws
+    app.register_blueprint(aws)
+    
     return app 

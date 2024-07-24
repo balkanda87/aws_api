@@ -7,9 +7,9 @@ __maintainer__ = "Someone"
 
 from aws_api import create_app, celery_create_app
 
-flask_app = create_app
-celery_app = celery_create_app
+flask_app = create_app()
+celery_app = celery_create_app()
 
-if __init__ == '__main__':
-    pass
+if __name__ == '__main__':
+    flask_app.run(host="0.0.0.0", port=8000, debug=True)
 

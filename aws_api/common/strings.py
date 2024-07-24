@@ -5,4 +5,3 @@ __copyright__ = "Copyright 2024, Health Care"
 __version__ = "1.0"
 __maintainer__ = "Someone"
 
-from dataclasses import dataclass
