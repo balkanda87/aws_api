@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+  fastapiaws:
+    container_name: fastapiaws
+    build: .
+    ports:
+      - 8000:7000
+    volumes:
+      - .:/code
