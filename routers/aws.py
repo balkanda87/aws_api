@@ -53,8 +53,8 @@ async def connect_ec2():
     """async function will create s3 session and retrun details."""
 
     session = boto3.Session(
-        aws_access_key_id="AKIAQE3ROLF7NVKSJB7P",
-        aws_secret_access_key="wjRt55DE58veALvdH99tF7zqW9u76Gw+f751eHI5",
+        aws_access_key_id="YOUR_ACCESS_KEY_ID",
+        aws_secret_access_key="YOUR_SECRET_ACCESS_KEY",
     )
 
     # s3 = session.resource("ec2")
