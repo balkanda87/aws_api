@@ -9,3 +9,7 @@ http://127.0.0.1:8000/api/
 
 # --swagger doc--
 http://127.0.0.1:8000/docs/
+
+
+# contact info
+reach me in microsoft teams id balkanda87@outlook.com
