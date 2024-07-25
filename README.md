@@ -14,4 +14,4 @@ http://127.0.0.1:8000/docs/
 reach me in microsoft teams id balkanda87@outlook.com
 
 # aws cloud 
-account created on 05/07/2024. Working aws cloud api for RDS.
+account created on 05/07/2024. Working aws cloud api.
