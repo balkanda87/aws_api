@@ -13,5 +13,8 @@ http://127.0.0.1:8000/docs/
 # contact info
 reach me in microsoft teams id balkanda87@outlook.com
 
-# aws cloud 
-account created on 05/07/2024. Working aws cloud api. blocked due to aws account activation.
+# aws cloud s3 get details
+http://127.0.0.1:8000/api/s3
+
+# aws cloud ec2 get details(In-Progress)
+http://127.0.0.1:8000/api/ec2
